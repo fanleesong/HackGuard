@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class HGDouble : HGObject {
-	private static double randSeed = Random.Range (0f, 100f);
+	private static double randSeed = Random.Range (1f, 100f);
 
 	private double _value;
 	public double Value

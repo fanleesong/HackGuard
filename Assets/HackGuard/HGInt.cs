@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class HGInt : HGObject {
-	private static int randSeed = Random.Range (0, 100);
+	private static int randSeed = Random.Range (1, 100);
 
 	private int _value;
 	public int Value

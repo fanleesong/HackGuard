@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class HGFloat : HGObject {
-	private static float randSeed = Random.Range (0f, 100f);
+	private static float randSeed = Random.Range (1f, 100f);
 
 	private float _value;
 	public float Value
